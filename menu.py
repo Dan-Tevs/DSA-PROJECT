@@ -7,6 +7,8 @@ def menu():
 
 def option1():
     print("Select a game")
+    from gameMenu import game_menu
+    game_menu()
     
 
 def option2():
